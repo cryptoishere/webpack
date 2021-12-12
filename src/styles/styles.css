@@ -1,0 +1,55 @@
+@import "~normalize.css";
+@import "roboto.css";
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.container {
+  padding-top: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+#contact:visited {
+  color: black;
+}
+
+.logo-wrapper {
+  /* position: absolute; */
+}
+
+.logo {
+  /* background-image: url("../assets/webpack-logo.png"); */
+  background-image: url("../assets/sth.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: 300px 168px;
+  height: 168px;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 100%;
+  height: 200px;
+}
+
+#webpack-image {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.banner + hr {
+  clear: both;
+}
+
+.code {
+  color: crimson;
+}
